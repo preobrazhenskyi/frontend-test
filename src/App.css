@@ -1,0 +1,56 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid gray;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+label {
+  margin-right: 0.25rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.App-list {
+  padding: 1rem;
+}
+
+.App-list-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.App-list-control {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.App-list-entry-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-list-entry-body {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.App-title-clickable {
+  cursor: pointer;
+}
